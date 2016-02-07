@@ -1,0 +1,14 @@
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="@dimen/fourdpPadding"
+    android:insetTop="@dimen/sixdpPadding"
+    android:insetRight="@dimen/fourdpPadding"
+    android:insetBottom="@dimen/sixdpPadding">
+    <shape android:shape="rectangle">
+        <corners android:radius="@dimen/twodpPadding" />
+        <solid android:color="@android:color/holo_green_light" />
+        <padding android:left="@dimen/eightdpPadding"
+            android:top="@dimen/fourdpPadding"
+            android:right="@dimen/eightdpPadding"
+            android:bottom="@dimen/fourdpPadding" />
+    </shape>
+</inset>
